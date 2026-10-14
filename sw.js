@@ -1,5 +1,5 @@
 // NEON STRIKE service worker. Bump CACHE on every release so players receive the new version.
-const CACHE='neon-strike-v9.1';
+const CACHE='neon-strike-v9.2';
 const SHELL=['./','./index.html','./manifest.json','./icon-180.png','./icon-192.png','./icon-512.png','./icon-maskable-512.png'];
 
 self.addEventListener('install',e=>{
